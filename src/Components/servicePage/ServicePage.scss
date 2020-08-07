@@ -1,0 +1,58 @@
+.ServicePageMainContainer{
+    padding: 2vh 15vw;
+    .headerContainer{
+        .headerContainerOne{
+            color: #4565f5;
+            width: 35px;
+            background-color: #4565f5;
+            height: 5px;
+            border-radius: 30px;
+        }
+        .headerContainerTwo{
+            color: #0c0c0c;
+            font-size: x-large;
+            font-weight: 700    ;
+        }
+    }
+    .bottomContainer{
+        width: auto;
+        display: flex;
+        .bottomContainerColumn{
+            width: 33%;
+        }
+        .bottomContainerOne{
+            color: #706e6e;
+            width: 100%;
+            margin-top: 50px;
+            .iconContainer{
+                background-color: #fff;
+                // color: #9e9d9d;
+                .icon{
+                    color: #0c0c0c;
+                }
+            }
+            
+            .bottomContainerOneTextOne{
+                font-size: large;
+                font-weight: 500;
+                color: #141414;
+            }
+           
+            .bottomContainerOneTextTwo{
+                font-size: 12px;
+                font-weight: 300;
+                color: #797878;
+            }
+        }
+        // .bottomContainerOne :hover {
+        //     color: #4565f5;
+        // }
+        .iconContainer :hover {
+            background-color: #fff;
+            // color: #9e9d9d;
+            .icon :hover {
+                color: #4565f5;
+            }
+        }
+    }
+}

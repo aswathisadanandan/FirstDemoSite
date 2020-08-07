@@ -1,0 +1,59 @@
+.headerMainContainer{
+    background-color:#4565f5;
+    width: auto;
+    display: flex;
+    padding: .5vh 15vw;
+    justify-content: space-between;
+    align-items: center;
+    .headerContainerOne{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 12px;
+        .icon{
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            object-fit: contain;
+            margin-right: 3px;
+        }
+        .headerContainerOneOne{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .headerContainerOneTwo{
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+    .headerContainerTwo{
+        display: flex;
+        align-items: center;
+        .headerContainerTwoOne{
+            display: flex;
+            .icon{
+                color: #fff;
+                width: 15px;
+                height: 15px;
+                object-fit: contain;
+                margin-right: 3px;
+                cursor: pointer;
+            }
+        }
+        .headerContainerTwoTwo{
+            display: flex;
+            margin-left: 20px;
+            color: #fff;
+            .headerContainerTwoTwoOne{
+                cursor: pointer;
+            }
+            .headerContainerTwoTwoTwo{
+                cursor: pointer;
+            }
+        }
+    }
+
+}

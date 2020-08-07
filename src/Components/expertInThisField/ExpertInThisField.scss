@@ -1,0 +1,126 @@
+.expertInThisFieldMainContainer{
+    display: flex;
+    margin-top: 20px;
+    .firstContainer{
+        width: 30vw;
+        padding: 3vh 5vw 3vh 15vw;
+        background-color: #eceaea;
+        .firstContainerTextOne{
+            color: #0d1431;
+            font-size: medium;
+            font-weight: 700 ;
+        }
+        .firstContainerTextTwo{
+            color: #0d1431;
+            font-size: 12px;
+            font-weight: 300 ;
+        }
+        .tickContainer{
+            display: flex;
+            color: #0d1431;
+            font-size: 12px;
+            font-weight: 300 ;
+            align-items: center;
+            margin-top: 10px;
+            .icon{
+                width: 15px;
+                height: 15px;
+                color: #4565f5;
+                object-fit: contain;
+                margin-right: 10px;
+                
+            }
+        }
+        .bottomContainer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            .bottomContainerOne{
+                margin-right: 2vw;
+            .bottomContainerTextOne{
+                color: #4565f5;
+                font-size: medium;
+                font-weight: 700 ;
+            }
+            .bottomContainerTextTwo{
+                color: #0d1431;
+                font-size: 12px;
+                font-weight: 300 ;
+            }
+         }
+        }
+    }
+    .secondContainer{
+        width: 40vw;
+        background-image: url('../../assets/Images/Four.jpg');
+        background-position: center;
+        background-size: cover;
+        padding: 3vh 5vw 3vh 5vw ;
+        display: flex;
+        align-items: center;
+        .secondContainerOne{
+            background-color: #4565f5de;
+            padding: 0vh 2vw 2vh 2vw;
+            border-radius: 3px;
+            margin: 6vh 0vw 6vh 0vw;
+            height: max-content;
+            // display: flex;
+            .imageContainer{
+                display: flex;
+                justify-content: center;
+            .secondContainerImage{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 50%;
+                border: 1px solid #4565f5;
+                align-self: center;
+                margin-top: -30px;
+                margin-bottom: 10px;
+            }
+          }
+          .secondContainerOneTextOne{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300 ;
+          }
+          .secondContainerOneBottom{
+              margin-top: 10px;
+              .secondContainerOneBottomTextOne{
+                  display: flex;
+                  justify-content: center;
+                  color: #fff;
+                  font-size: 12px;
+                  font-weight: 600 ;
+              }
+              .secondContainerOneBottomTextTwo{
+                display: flex;
+                justify-content: center;
+                color: #fff;
+                font-size: 12px;
+                font-weight: 300 ;
+            }
+          }
+          .curouselContainer{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 25px;
+            .curouselContainerActive{
+                background-color:#fff;
+                width: 25px;
+                height: 4px;
+                border-radius: 30px;
+                box-shadow:0px 1px 3px 0px #a3a2a2;
+            }
+            .curouselContainerTwo{
+              background-color: #fff;
+              width: 4px;
+              height: 4px;
+              margin-left: 5px;
+              border-radius: 30px;
+              box-shadow:0px 1px 3px 0px #a3a2a2;
+            }
+        }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.whyChooseUsMainContainer{
+    margin-top: 30px;
+    display: flex;
+    .firstContainer{
+        background-image: url('../../assets/Images/Two.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 50vw;
+        padding: 20vh 0vw;
+        justify-content: center;
+        display: flex;
+        .firstContainerOne{
+            background-color: #e9e6e677;
+            padding: 6vh 2vw;
+            box-shadow:0px 1px 5px 0px #a3a2a2;
+            .firstContainerOneOne{
+                text-align: center;
+                color: #4565f5;
+                font-size: xx-large;
+                font-weight: bold;
+            }
+            .firstContainerOneTwo{
+                text-align: center;
+                color: #232324;
+                font-size: x-large;
+                font-weight: bold;
+                letter-spacing: 3px;
+            }
+        }
+    }
+    .secondContainer{
+        background-color: #e9eaec;
+        padding: 3vh 15vw 3vh 5vw;
+        width: 30vw;
+        .whyChooseUsText{
+            // text-align: center;
+            color: #19203f;
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .whyChooseUsTextSubText{
+            color: #515152;
+            font-size: 12px;
+            font-weight: 300;
+        }
+        .secondContainerOne{
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            .secondContainerOneOne{
+                background-color: #fff;
+                border-radius: 50%;
+                padding: 10px;
+                margin-right: 20px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                .icon{
+                    width: 20px;
+                    height: 20px;
+                    object-fit: contain;
+                }
+
+            }
+        }
+        .secondContainerTwoTextOne{
+            color: #4565f5;
+            font-size: x-large;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .secondContainerTwoTextTwo{
+            color: #515152;
+            font-size: 12px;
+            font-weight: 300;
+        }
+    }
+}

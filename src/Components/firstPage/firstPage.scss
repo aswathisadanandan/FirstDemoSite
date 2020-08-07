@@ -1,0 +1,118 @@
+.firstPageContainer{
+    background-image: url('../../assets/Images/Three.jpg');
+    background-repeat: repeat;
+    background-size: cover;    
+    // background-position: center;
+    .headerContainer{
+        padding: 2vh 15vw;
+        justify-content: space-between;
+        background-color: #ffffff30;
+        box-shadow:0px 2px 15px 0px #e2dede;
+        display: flex;
+        align-items: center;
+        box-shadow: #9caeff;
+        .headerContainerOne{
+            color: #4565f5;
+            font-size: xx-large;
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .headerContainerTwo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .headerContainerTwoOne{
+                color: #4565f5;
+                font-size: medium;
+                font-weight: 500;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+        }
+        .headerContainerThree{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            background-color: #4565f5;
+            align-items: center;
+            justify-content: center;
+            // border: 5px solid #e1e5fa;
+            box-shadow: 0px 0px 7px 4px #9caeff;
+            cursor: pointer;
+            .headerContainerThreeOne{
+                justify-content: center;
+                .icon{
+                    width: 20px;
+                    height: 20px;
+                    color: #fff;
+                    object-fit: contain;
+                    align-self: center;
+                }
+            }
+           
+        }
+    }
+    .bottomPart{
+        padding: 20vh 15vw;
+        .bottomPartOne{
+            color: #a2a9c5;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 17px;
+        }
+        .bottomPartTwo{
+            margin-top: 10px;
+            color: #1b1b1b;
+            font-size: 50px;
+            line-height: 50px;
+            font-weight: bolder;
+            width: 550px;
+        }
+        .bottomPartTwoBlue{
+            color: #4565f5;
+            font-size: 50px;
+            font-weight: bolder;
+            line-height: 50px;
+        }
+        .bottomPartThree{
+            margin-top: 10px;
+            color: #282829;
+            font-size: 12px;
+            line-height: 15px;
+            font-weight: 400;
+            width:550px
+        }
+        .bottomPartFour{
+            display: flex;
+            margin-top: 10px;
+            .bottomPartFourServices{
+                background-color: #4565f5;
+                padding: .5vh 2vw;
+                border-radius: 5px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #fff;
+                font-size: 14px;
+                font-weight: lighter;
+                cursor: pointer;
+            }
+            .bottomPartFourContactUs{
+                border: 1px solid #4565f5;
+                padding: .5vh 1.5vw;
+                border-radius: 5px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #000;
+                font-size: 14px;
+                font-weight: lighter;
+                margin-left: 25px;
+                cursor: pointer;
+            }
+        }
+    }
+}
